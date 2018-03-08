@@ -1,0 +1,18 @@
+{
+    "description": "Adds [AMZN] next to names of Amazon-owned brands in search results at amazon.com",
+    "manifest_version": 2,
+    "name": "Amazon Brands",
+    "version": "0.1",
+    "homepage_url": "https://github.com/amadeusw/amazon-brands",
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.amazon.com/*"],
+        "js": ["amazon-brands.js"]
+      }
+    ]
+  
+  }
