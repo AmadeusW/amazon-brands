@@ -1,0 +1,8 @@
+# amazon-brands - Web extension that marks Amazon-owned brands
+
+This extension prepends [AMZN] to search results that come from brands owned by Amazon, for example:
+![v0.1](https://user-images.githubusercontent.com/1673956/37138578-71194ed4-225f-11e8-9242-d5088dc55327.png)
+
+
+The list of known brands is maintained in `list.js`. Currently, its contents are taken from [this article](https://qz.com/1039381/amazon-owns-a-whole-collection-of-secret-brands/)
+
