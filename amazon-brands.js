@@ -1,7 +1,3 @@
-var brands = [
-    "AmazonBasics"
-]
-
 console.log("amazon-brands script loaded");
 
 // TODO: support multiple result containers

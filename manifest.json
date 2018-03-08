@@ -11,7 +11,7 @@
     "content_scripts": [
       {
         "matches": ["*://*.amazon.com/*"],
-        "js": ["amazon-brands.js"]
+        "js": ["list.js", "amazon-brands.js"]
       }
     ]
   
