@@ -5,7 +5,7 @@
     "version": "0.1",
     "homepage_url": "https://github.com/amadeusw/amazon-brands",
     "icons": {
-      "48": "icons/border-48.png"
+      "48": "resources/logo-48.png"
     },
   
     "content_scripts": [
